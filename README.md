@@ -13,7 +13,7 @@ Brand Awareness
 Cost Management
 
 ## Screenshot
-![]ApplicationMockup
+![](images/ApplicationMockup.png)
 
 
 ## Application URL
