@@ -13,7 +13,7 @@ Brand Awareness
 Cost Management
 
 ## Screenshot
-![testing](./develop/assets/images/ApplicationMockup.png)
+![testing](./Develop/assets/images/ApplicationMockup.png)
 
 
 
