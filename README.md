@@ -13,11 +13,8 @@ Brand Awareness
 Cost Management
 
 ## Screenshot
-<<<<<<< HEAD
-![](./develop/assets/images/ApplicationMockup.png)
-=======
-![](develop/assets/images/ApplicationMockup.png)
->>>>>>> c11394626a2574796d772e28b236146f65f96a7b
+![testing](./develop/assets/images/ApplicationMockup.png)
+
 
 
 ## Application URL
