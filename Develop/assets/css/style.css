@@ -1,55 +1,60 @@
+/* Universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
  
+/*To set the background color of the website*/
 body {
     background-color: #d9dcd6;
 }
  
-.header {
+/*Setting padding, font type, font color and background color of header elements*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
  
-.header h1 {
+/*Setting display type and font size for the header*/
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
  
-.header h1 .seo {
+/*Setting a different color for the partial word under Header*/
+header h1 .seo {
     color: #d9dcd6;
 }
- 
-.header navi {
+ /*To set the font type, font size and displaying navi elements to the right*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
- 
-.header navi ul {
+ /*To set the list style under header*/
+header nav ul {
     list-style-type: none;
 }
- 
-.header navi ul li {
+ /*Updating the display and margin in header*/
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
- 
+ /*setting the font texts*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
- 
+  /*setting the font tize*/
 p {
     font-size: 16px;
 }
- 
+ /*setting the center image size and background attributes*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,24 +63,43 @@ p {
     background-size: cover;
     background-position: center;
 }
- 
+  /*setting the image to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
- 
+  /*setting the image to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
- 
+   /*setting the display and section size*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
- 
-.benefits {
+
+   /*setting the section background color and other attributes*/
+.content article{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+   /*setting the section image max height*/
+.content img {
+    max-height: 200px;
+}
+   /*setting the section font size*/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+   /*setting the background and other attributes in the article section */
+   .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,49 +111,31 @@ p {
     color: #ffffff;
     margin-bottom: 80px;
 }
- 
-.benefits h3 {
+   /*setting the article header margin and alignment*/
+.benefit h3 {
     margin-bottom: 30px;
     text-align: center;
 }
- 
-.benefits img {
+   /*setting the article image display, margin and max width size*/
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
- 
-.benefits p{
+   /*setting the article paragraph font type and font size*/
+.benefit p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 13px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
- 
-.content article{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
- 
-.content img {
-    max-height: 200px;
-}
- 
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
- 
-.footer {
+   /*setting the footer font alignment and other attributes*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
- 
-.footer h2 {
+   /*setting the footer header font size*/
+footer h2 {
     font-size: 20px;
 }
